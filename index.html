@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Assessment</title>
+</head>
+<body>
+  <div class="container">
+	<div class="greeting">
+		<p>Welcome Back</p>
+	</div>
+	<form action="/my-handling-form-page" method="post">
+		<div>
+			<h3>Hello, friend.</h3>
+		</div>
+		<div class="emailLabel">
+			<input type="email" id="mail" placeholder="Email">
+			<!--<label for="email">Email</label>
+			<input type="email" id="mail" name="user_name">-->
+		</div>
+		<div class="passwordLabel">
+			<input type="password" id="password" placeholder="Password">
+			<!--<label for="password">Password</label>
+			<input type="password" id="password" name="user_mail">-->
+		</div>
+		<div class="button">
+			<button onclick="checkLogin()">SIGN IN</button>
+		</div>
+		<div class="trouble">
+			<p>Having trouble?  <a href="index.html">Recover your password</a>
+		</div>
+  </div>
+		<div class="correct">
+			<p>Welcome, Grant Chirpus!</p>
+			<a href="index.html">Log out</a>
+		</div>
+	</form>
+ <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

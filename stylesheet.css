@@ -1,0 +1,85 @@
+html {
+	background-color: black;
+}
+
+button {
+	background-color: black;
+	color: white;
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+button:hover {
+	background-color: green;
+}
+.button {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+form {
+	background-color: white;
+	height: 380px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.trouble, a {
+	color: #CCCCCC;
+	text-align: center;
+}
+
+a:hover {
+	color: green;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 60px;
+	font-size: 26px;
+}
+
+#password, #mail {
+	width: 300px;
+	margin-left: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#mail {
+	margin-bottom: 15px;
+}
+
+.greeting p {
+	border-top: solid 1px #CCCCCC;
+	color: #CCCCCC;
+	margin: 0 auto;
+	width: 220px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+.emailLabel, .passwordLabel {
+	border-top: none;
+}
+
+.correct {
+	width: 425px;
+	height: 190px;
+	background-color: white;
+	display: none;
+}
+
+.correct p {
+	font-size: 26px;
+	text-align: center;
+}
+
+.correct a {
+	color: #CCCCCC;
+	text-align: center;
+}
